@@ -1,4 +1,3 @@
-import { gql, useMutation } from "@apollo/client";
 import React, { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
@@ -50,7 +49,7 @@ export default function Subscribe() {
             <input
               className="bg-gray-900 rounded px-5 h-14"
               type="text"
-              placeholder="Seu nome completo"
+              placeholder="Nome completo"
               onChange={(e) => setName(e.target.value)}
             />
             <input
